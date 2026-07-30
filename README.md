@@ -2,7 +2,7 @@
 
 <!-- ACCESS GRANTED // AUTHORIZED PROFILE SESSION -->
 
-<img src="./assets/cyber-header.svg" width="100%" alt="Sachin T — animated cybersecurity identity console" />
+<img src="./assets/cyber-header.svg?v=2" width="100%" alt="Sachin T — animated cybersecurity identity console" />
 
 <br />
 
@@ -23,7 +23,7 @@
 
 ## `> IDENTITY VERIFICATION`
 
-<img src="./assets/sachin-cyber-avatar.svg" width="440" alt="Sachin T — animated real-photo cyber avatar" />
+<img src="./assets/sachin-cyber-avatar.svg?v=2" width="440" alt="Sachin T — animated real-photo cyber avatar" />
 
 <sub>The portrait above uses Sachin's supplied image as the unchanged identity source. Animation is applied to the surrounding HUD and scanner layers.</sub>
 
