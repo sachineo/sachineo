@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 170" role="img" aria-labelledby="title desc">
+  <title id="title">Sachin T live portfolio metrics</title>
+  <desc id="desc">Cybersecurity HUD showing years active, students trained, projects, and listed credentials.</desc>
+  <defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#00ff9c" stroke-opacity=".035"/>
+    </pattern>
+    <linearGradient id="scan" x1="0" x2="1"><stop stop-color="#00ff9c" stop-opacity="0"/><stop offset=".5" stop-color="#00ff9c" stop-opacity=".65"/><stop offset="1" stop-color="#00ff9c" stop-opacity="0"/></linearGradient>
+  </defs>
+  <style>
+    text{font-family:"JetBrains Mono","SFMono-Regular",Consolas,monospace}
+    .pulse{animation:pulse 2.4s ease-in-out infinite}.scan{animation:scan 7s linear infinite}
+    @keyframes pulse{50%{opacity:.25}}@keyframes scan{from{transform:translateX(-900px)}to{transform:translateX(1000px)}}
+    @media(prefers-reduced-motion:reduce){*{animation:none!important}}
+  </style>
+  <rect width="1000" height="170" rx="16" fill="#080d12"/>
+  <rect x="1.5" y="1.5" width="997" height="167" rx="14.5" fill="url(#grid)" stroke="#27333b" stroke-width="3"/>
+  <path d="M18 16h38M18 16v20M982 16h-38M982 16v20M18 154h38M18 154v-20M982 154h-38M982 154v-20" stroke="#00ff9c" stroke-width="2"/>
+  <text x="28" y="40" fill="#00ff9c" font-size="17" font-weight="700">&gt; LIVE METRIC HUD</text>
+  <circle cx="955" cy="34" r="5" fill="#00ff9c" class="pulse"/><text x="874" y="39" fill="#8297a3" font-size="11">STREAMING</text>
+  <path d="M20 56h960" stroke="#27333b"/>
+  <g text-anchor="middle">
+    <g transform="translate(125 0)"><text y="108" fill="#f2fff9" font-size="28" font-weight="700">4+</text><text y="134" fill="#8297a3" font-size="12">YEARS ACTIVE</text></g>
+    <g transform="translate(375 0)"><text y="108" fill="#00ff9c" font-size="28" font-weight="700">500+</text><text y="134" fill="#8297a3" font-size="12">STUDENTS TRAINED</text></g>
+    <g transform="translate(625 0)"><text y="108" fill="#00d9ff" font-size="28" font-weight="700">10+</text><text y="134" fill="#8297a3" font-size="12">PROJECTS BUILT</text></g>
+    <g transform="translate(875 0)"><text y="108" fill="#f2fff9" font-size="28" font-weight="700">9+</text><text y="134" fill="#8297a3" font-size="12">CREDENTIALS LISTED</text></g>
+  </g>
+  <path d="M250 70v72M500 70v72M750 70v72" stroke="#27333b"/>
+  <rect class="scan" x="0" y="57" width="150" height="2" fill="url(#scan)"/>
+</svg>

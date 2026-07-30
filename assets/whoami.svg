@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 390" role="img" aria-labelledby="title desc">
+  <title id="title">Sachin T identity console</title>
+  <desc id="desc">A terminal-style profile panel for cybersecurity researcher, trainer, and Skoolic founder Sachin T.</desc>
+  <defs>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#00ff9c" stroke-opacity=".035"/></pattern>
+  </defs>
+  <style>
+    text{font-family:"JetBrains Mono","SFMono-Regular",Consolas,monospace}
+    .cursor{animation:blink 1s steps(2,end) infinite}.pulse{animation:pulse 2.5s ease-in-out infinite}
+    @keyframes blink{50%{opacity:0}}@keyframes pulse{50%{opacity:.3}}@media(prefers-reduced-motion:reduce){*{animation:none!important}}
+  </style>
+  <rect width="1000" height="390" rx="16" fill="#080d12"/>
+  <rect x="1.5" y="1.5" width="997" height="387" rx="14.5" fill="url(#grid)" stroke="#27333b" stroke-width="3"/>
+  <path d="M18 16h38M18 16v20M982 16h-38M982 16v20" stroke="#00ff9c" stroke-width="2"/>
+  <text x="28" y="43" fill="#00ff9c" font-size="18" font-weight="700">&gt; WHOAMI // OPERATOR IDENTITY</text>
+  <circle cx="954" cy="36" r="5" fill="#00ff9c" class="pulse"/><text x="889" y="40" fill="#8297a3" font-size="11">ONLINE</text>
+  <path d="M22 62h956M612 82v270" stroke="#27333b"/>
+  <g font-size="14">
+    <text x="34" y="104" fill="#00d9ff">sachin@kali:~$</text><text x="190" y="104" fill="#f2fff9">cat identity.conf</text>
+    <text x="34" y="146" fill="#8297a3">IDENTITY</text><text x="190" y="146" fill="#f2fff9">SACHIN T</text>
+    <text x="34" y="184" fill="#8297a3">ROLE</text><text x="190" y="184" fill="#f2fff9">CYBERSECURITY TRAINER / RESEARCHER</text>
+    <text x="34" y="222" fill="#8297a3">SPECIALIZATION</text><text x="190" y="222" fill="#f2fff9">MCA // CYBERSECURITY</text>
+    <text x="34" y="260" fill="#8297a3">LOCATION</text><text x="190" y="260" fill="#f2fff9">COIMBATORE // INDIA</text>
+    <text x="34" y="298" fill="#8297a3">MISSION</text><text x="190" y="298" fill="#00ff9c">SECURE • EDUCATE • RESEARCH • BUILD</text>
+    <text x="34" y="340" fill="#00d9ff">sachin@kali:~$</text><rect x="190" y="328" width="9" height="15" fill="#00ff9c" class="cursor"/>
+  </g>
+  <g transform="translate(645 104)">
+    <text fill="#8297a3" font-size="11">CURRENT OPERATIONS</text>
+    <path d="M0 18h315" stroke="#27333b"/>
+    <g font-size="14">
+      <circle cx="5" cy="57" r="4" fill="#00ff9c" class="pulse"/><text x="20" y="62" fill="#f2fff9">AUTHORIZED SECURITY TESTING</text>
+      <circle cx="5" cy="101" r="4" fill="#00d9ff" class="pulse"/><text x="20" y="106" fill="#f2fff9">VULNERABILITY RESEARCH</text>
+      <circle cx="5" cy="145" r="4" fill="#00ff9c" class="pulse"/><text x="20" y="150" fill="#f2fff9">PRACTICAL CYBER EDUCATION</text>
+      <circle cx="5" cy="189" r="4" fill="#00d9ff" class="pulse"/><text x="20" y="194" fill="#f2fff9">SKOOLIC PLATFORM</text>
+    </g>
+    <rect y="228" width="315" height="52" rx="8" fill="#0b151b" stroke="#00ff9c" stroke-opacity=".35"/>
+    <text x="18" y="251" fill="#8297a3" font-size="11">ACCESS LEVEL</text><text x="18" y="270" fill="#00ff9c" font-size="13" font-weight="700">RESPONSIBLE DISCLOSURE</text>
+  </g>
+</svg>

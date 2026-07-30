@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 650" role="img" aria-labelledby="title desc">
+  <title id="title">Sachin T security arsenal</title>
+  <desc id="desc">Cybersecurity toolkit dashboard covering offensive security, network analysis, security domains, infrastructure, cloud, and automation.</desc>
+  <defs>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#00ff9c" stroke-opacity=".035"/></pattern>
+    <linearGradient id="scan" x1="0" x2="1"><stop stop-color="#00ff9c" stop-opacity="0"/><stop offset=".5" stop-color="#00ff9c" stop-opacity=".55"/><stop offset="1" stop-color="#00ff9c" stop-opacity="0"/></linearGradient>
+  </defs>
+  <style>
+    text{font-family:"JetBrains Mono","SFMono-Regular",Consolas,monospace}.pulse{animation:pulse 2.4s ease-in-out infinite}.p2{animation-delay:.7s}.p3{animation-delay:1.4s}.scan{animation:scan 8s linear infinite}
+    @keyframes pulse{50%{opacity:.25}}@keyframes scan{from{transform:translateX(-900px)}to{transform:translateX(1000px)}}@media(prefers-reduced-motion:reduce){*{animation:none!important}}
+  </style>
+  <rect width="1000" height="650" rx="16" fill="#080d12"/>
+  <rect x="1.5" y="1.5" width="997" height="647" rx="14.5" fill="url(#grid)" stroke="#27333b" stroke-width="3"/>
+  <path d="M18 16h38M18 16v20M982 16h-38M982 16v20M18 634h38M18 634v-20M982 634h-38M982 634v-20" stroke="#00ff9c" stroke-width="2"/>
+  <text x="28" y="43" fill="#00ff9c" font-size="18" font-weight="700">&gt; SECURITY ARSENAL</text>
+  <text x="846" y="42" fill="#8297a3" font-size="11">MODULES: 05</text><circle cx="964" cy="37" r="5" fill="#00ff9c" class="pulse"/>
+  <path d="M22 64h956" stroke="#27333b"/><rect class="scan" x="0" y="63" width="160" height="2" fill="url(#scan)"/>
+  <g transform="translate(28 86)">
+    <g>
+      <rect width="455" height="202" rx="10" fill="#0b1117" stroke="#27333b"/>
+      <path d="M0 44h455" stroke="#27333b"/><text x="18" y="29" fill="#00d9ff" font-size="14" font-weight="700">01 // OFFENSIVE SECURITY</text><circle cx="425" cy="23" r="4" fill="#00d9ff" class="pulse"/>
+      <g font-size="13" fill="#f2fff9"><text x="22" y="79">BURP SUITE</text><text x="235" y="79">METASPLOIT</text><text x="22" y="117">NMAP</text><text x="235" y="117">NESSUS</text><text x="22" y="155">KALI LINUX</text><text x="235" y="155">VAPT WORKFLOWS</text></g>
+      <g stroke="#00ff9c" stroke-opacity=".35"><path d="M18 91h170M231 91h202M18 129h170M231 129h202M18 167h170M231 167h202"/></g>
+    </g>
+    <g transform="translate(489)">
+      <rect width="455" height="202" rx="10" fill="#0b1117" stroke="#27333b"/>
+      <path d="M0 44h455" stroke="#27333b"/><text x="18" y="29" fill="#00d9ff" font-size="14" font-weight="700">02 // NETWORK ANALYSIS</text><circle cx="425" cy="23" r="4" fill="#00ff9c" class="pulse p2"/>
+      <g font-size="13" fill="#f2fff9"><text x="22" y="79">WIRESHARK</text><text x="235" y="79">NMAP</text><text x="22" y="117">TRAFFIC ANALYSIS</text><text x="235" y="117">NETWORK AUDITING</text><text x="22" y="155">PACKET INSPECTION</text><text x="235" y="155">THREAT HUNTING</text></g>
+      <g stroke="#00ff9c" stroke-opacity=".35"><path d="M18 91h170M231 91h202M18 129h170M231 129h202M18 167h170M231 167h202"/></g>
+    </g>
+    <g transform="translate(0 228)">
+      <rect width="455" height="202" rx="10" fill="#0b1117" stroke="#27333b"/>
+      <path d="M0 44h455" stroke="#27333b"/><text x="18" y="29" fill="#00d9ff" font-size="14" font-weight="700">03 // SECURITY DOMAINS</text><circle cx="425" cy="23" r="4" fill="#00d9ff" class="pulse p3"/>
+      <g font-size="13" fill="#f2fff9"><text x="22" y="79">WEB SECURITY</text><text x="235" y="79">OWASP</text><text x="22" y="117">OSINT</text><text x="235" y="117">THREAT INTEL</text><text x="22" y="155">INCIDENT RESPONSE</text><text x="235" y="155">SECURITY AUDIT</text></g>
+      <g stroke="#00ff9c" stroke-opacity=".35"><path d="M18 91h170M231 91h202M18 129h170M231 129h202M18 167h170M231 167h202"/></g>
+    </g>
+    <g transform="translate(489 228)">
+      <rect width="455" height="202" rx="10" fill="#0b1117" stroke="#27333b"/>
+      <path d="M0 44h455" stroke="#27333b"/><text x="18" y="29" fill="#00d9ff" font-size="14" font-weight="700">04 // INFRASTRUCTURE</text><circle cx="425" cy="23" r="4" fill="#00ff9c" class="pulse"/>
+      <g font-size="13" fill="#f2fff9"><text x="22" y="79">AWS SECURITY</text><text x="235" y="79">IAM / S3 / KMS</text><text x="22" y="117">LINUX</text><text x="235" y="117">WINDOWS SECURITY</text><text x="22" y="155">CLOUD CONTROLS</text><text x="235" y="155">HARDENING</text></g>
+      <g stroke="#00ff9c" stroke-opacity=".35"><path d="M18 91h170M231 91h202M18 129h170M231 129h202M18 167h170M231 167h202"/></g>
+    </g>
+    <g transform="translate(0 456)">
+      <rect width="944" height="86" rx="10" fill="#0b1117" stroke="#27333b"/>
+      <text x="18" y="29" fill="#00d9ff" font-size="14" font-weight="700">05 // DEVELOPMENT &amp; AUTOMATION</text>
+      <g font-size="12" font-weight="700"><rect x="18" y="44" width="146" height="26" rx="5" fill="#0d1b17" stroke="#00ff9c" stroke-opacity=".35"/><text x="44" y="62" fill="#00ff9c">PYTHON</text><rect x="182" y="44" width="235" height="26" rx="5" fill="#0d1b17" stroke="#00d9ff" stroke-opacity=".35"/><text x="203" y="62" fill="#00d9ff">SECURITY AUTOMATION</text><rect x="435" y="44" width="196" height="26" rx="5" fill="#0d1b17" stroke="#00ff9c" stroke-opacity=".35"/><text x="457" y="62" fill="#00ff9c">OSINT TOOLING</text><rect x="649" y="44" width="277" height="26" rx="5" fill="#0d1b17" stroke="#00d9ff" stroke-opacity=".35"/><text x="671" y="62" fill="#00d9ff">SECURITY REPORTING</text></g>
+    </g>
+  </g>
+</svg>

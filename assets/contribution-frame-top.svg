@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 118" role="img" aria-labelledby="title desc">
+  <title id="title">Contribution network live feed</title><desc id="desc">Cyber HUD header framing the live GitHub contribution snake.</desc>
+  <style>text{font-family:"JetBrains Mono","SFMono-Regular",Consolas,monospace}.pulse{animation:pulse 2.4s ease-in-out infinite}@keyframes pulse{50%{opacity:.25}}@media(prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+  <rect width="1000" height="118" rx="14" fill="#080d12"/><path d="M1.5 118V15A13.5 13.5 0 0 1 15 1.5h970A13.5 13.5 0 0 1 998.5 15v103" fill="none" stroke="#27333b" stroke-width="3"/>
+  <path d="M18 16h38M18 16v18M982 16h-38M982 16v18" stroke="#00ff9c" stroke-width="2"/>
+  <text x="28" y="49" fill="#00ff9c" font-size="18" font-weight="700">&gt; CONTRIBUTION NETWORK</text><text x="858" y="48" fill="#8297a3" font-size="11">LIVE FEED</text><circle cx="963" cy="44" r="5" fill="#00ff9c" class="pulse"/>
+  <path d="M22 66h956" stroke="#27333b"/>
+  <g fill="#8297a3" font-size="11" text-anchor="middle"><text x="75" y="96">JAN</text><text x="153" y="96">FEB</text><text x="231" y="96">MAR</text><text x="309" y="96">APR</text><text x="387" y="96">MAY</text><text x="465" y="96">JUN</text><text x="543" y="96">JUL</text><text x="621" y="96">AUG</text><text x="699" y="96">SEP</text><text x="777" y="96">OCT</text><text x="855" y="96">NOV</text><text x="933" y="96">DEC</text></g>
+</svg>

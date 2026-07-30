@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1040" role="img" aria-labelledby="title desc">
+  <title id="title">Sachin T cybersecurity project archive</title>
+  <desc id="desc">Mission-style cards for seven cybersecurity research, training, and open-source projects.</desc>
+  <defs>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#00ff9c" stroke-opacity=".035"/></pattern>
+    <linearGradient id="scan" x1="0" x2="1"><stop stop-color="#00ff9c" stop-opacity="0"/><stop offset=".5" stop-color="#00ff9c" stop-opacity=".55"/><stop offset="1" stop-color="#00ff9c" stop-opacity="0"/></linearGradient>
+  </defs>
+  <style>
+    text{font-family:"JetBrains Mono","SFMono-Regular",Consolas,monospace}.pulse{animation:pulse 2.5s ease-in-out infinite}.p2{animation-delay:.8s}.scan{animation:scan 9s linear infinite}
+    @keyframes pulse{50%{opacity:.25}}@keyframes scan{from{transform:translateX(-900px)}to{transform:translateX(1000px)}}@media(prefers-reduced-motion:reduce){*{animation:none!important}}
+  </style>
+  <rect width="1000" height="1040" rx="16" fill="#080d12"/>
+  <rect x="1.5" y="1.5" width="997" height="1037" rx="14.5" fill="url(#grid)" stroke="#27333b" stroke-width="3"/>
+  <path d="M18 16h38M18 16v20M982 16h-38M982 16v20M18 1024h38M18 1024v-20M982 1024h-38M982 1024v-20" stroke="#00ff9c" stroke-width="2"/>
+  <text x="28" y="43" fill="#00ff9c" font-size="18" font-weight="700">&gt; CLASSIFIED PROJECT ARCHIVE</text>
+  <text x="884" y="42" fill="#8297a3" font-size="11">FILES: 07</text><circle cx="963" cy="37" r="5" fill="#00ff9c" class="pulse"/>
+  <path d="M22 64h956" stroke="#27333b"/><rect class="scan" x="0" y="63" width="160" height="2" fill="url(#scan)"/>
+  <g transform="translate(28 88)">
+    <g>
+      <rect width="944" height="210" rx="11" fill="#0b1117" stroke="#00ff9c" stroke-opacity=".45"/>
+      <path d="M0 48h944M22 154h900" stroke="#27333b"/>
+      <text x="22" y="31" fill="#00d9ff" font-size="12">SEC-001 // ACTIVE DEVELOPMENT</text><circle cx="914" cy="25" r="5" fill="#00ff9c" class="pulse"/>
+      <text x="22" y="84" fill="#f2fff9" font-size="23" font-weight="700">BOUNTYSCOPE ULTIMATE</text>
+      <text x="22" y="117" fill="#9bb0bb" font-size="14">Local-first offensive security operations console for authorized research.</text>
+      <text x="22" y="142" fill="#9bb0bb" font-size="14">Scope, endpoints, testing labs, evidence, findings and reporting in one workspace.</text>
+      <text x="22" y="184" fill="#8297a3" font-size="11">STACK</text><text x="100" y="184" fill="#f2fff9" font-size="12">ELECTRON • SECURITY TOOLING</text><text x="475" y="184" fill="#8297a3" font-size="11">ACCESS</text><text x="560" y="184" fill="#00ff9c" font-size="12">LIVE DEMO // OPEN SOURCE</text>
+    </g>
+    <g transform="translate(0 234)">
+      <rect width="456" height="190" rx="11" fill="#0b1117" stroke="#27333b"/><path d="M0 46h456M20 143h416" stroke="#27333b"/>
+      <text x="20" y="29" fill="#00d9ff" font-size="11">LAB-002 // TRAINING LAB</text><circle cx="426" cy="23" r="4" fill="#00d9ff" class="pulse p2"/>
+      <text x="20" y="80" fill="#f2fff9" font-size="17" font-weight="700">BREACHRADAR X</text><text x="20" y="106" fill="#9bb0bb" font-size="12">Phone-exposure intelligence lab for</text><text x="20" y="126" fill="#9bb0bb" font-size="12">privacy awareness and defensive training.</text><text x="20" y="170" fill="#00ff9c" font-size="11">PRIVACY // DEFENSIVE SECURITY</text>
+    </g>
+    <g transform="translate(488 234)">
+      <rect width="456" height="190" rx="11" fill="#0b1117" stroke="#27333b"/><path d="M0 46h456M20 143h416" stroke="#27333b"/>
+      <text x="20" y="29" fill="#00d9ff" font-size="11">LAB-003 // TRAINING LAB</text><circle cx="426" cy="23" r="4" fill="#00ff9c" class="pulse"/>
+      <text x="20" y="80" fill="#f2fff9" font-size="17" font-weight="700">PHISHING AWARENESS SIMULATOR</text><text x="20" y="106" fill="#9bb0bb" font-size="12">Safe phishing-awareness simulation with</text><text x="20" y="126" fill="#9bb0bb" font-size="12">local detection and IOC case tracking.</text><text x="20" y="170" fill="#00ff9c" font-size="11">EDUCATION // OPEN SOURCE</text>
+    </g>
+    <g transform="translate(0 448)">
+      <rect width="456" height="190" rx="11" fill="#0b1117" stroke="#27333b"/><path d="M0 46h456M20 143h416" stroke="#27333b"/>
+      <text x="20" y="29" fill="#00d9ff" font-size="11">EDU-004 // ACTIVE PLATFORM</text><circle cx="426" cy="23" r="4" fill="#00ff9c" class="pulse p2"/>
+      <text x="20" y="80" fill="#f2fff9" font-size="17" font-weight="700">SKOOLIC</text><text x="20" y="106" fill="#9bb0bb" font-size="12">Structured cybersecurity courses, webinars,</text><text x="20" y="126" fill="#9bb0bb" font-size="12">hands-on labs and community training.</text><text x="20" y="170" fill="#00ff9c" font-size="11">CYBER EDUCATION // INDIA</text>
+    </g>
+    <g transform="translate(488 448)">
+      <rect width="456" height="190" rx="11" fill="#0b1117" stroke="#27333b"/><path d="M0 46h456M20 143h416" stroke="#27333b"/>
+      <text x="20" y="29" fill="#00d9ff" font-size="11">OSINT-005 // RESEARCH TOOL</text><circle cx="426" cy="23" r="4" fill="#00d9ff" class="pulse"/>
+      <text x="20" y="80" fill="#f2fff9" font-size="17" font-weight="700">OSINT THREAT INTELLIGENCE</text><text x="20" y="106" fill="#9bb0bb" font-size="12">Python automation for controlled public</text><text x="20" y="126" fill="#9bb0bb" font-size="12">digital-footprint research and training.</text><text x="20" y="170" fill="#00ff9c" font-size="11">PYTHON // OSINT AUTOMATION</text>
+    </g>
+    <g transform="translate(0 662)">
+      <rect width="456" height="190" rx="11" fill="#0b1117" stroke="#27333b"/><path d="M0 46h456M20 143h416" stroke="#27333b"/>
+      <text x="20" y="29" fill="#00d9ff" font-size="11">NET-006 // ANALYSIS LAB</text><circle cx="426" cy="23" r="4" fill="#00ff9c" class="pulse p2"/>
+      <text x="20" y="80" fill="#f2fff9" font-size="17" font-weight="700">WIRESHARK TRAFFIC LAB</text><text x="20" y="106" fill="#9bb0bb" font-size="12">Advanced packet inspection, traffic analysis</text><text x="20" y="126" fill="#9bb0bb" font-size="12">and malware-detection fundamentals.</text><text x="20" y="170" fill="#00ff9c" font-size="11">NETWORK SECURITY // TRAINING</text>
+    </g>
+    <g transform="translate(488 662)">
+      <rect width="456" height="190" rx="11" fill="#0b1117" stroke="#27333b"/><path d="M0 46h456M20 143h416" stroke="#27333b"/>
+      <text x="20" y="29" fill="#00d9ff" font-size="11">CTF-007 // CHALLENGE SERIES</text><circle cx="426" cy="23" r="4" fill="#00d9ff" class="pulse"/>
+      <text x="20" y="80" fill="#f2fff9" font-size="17" font-weight="700">CTF CHALLENGE SERIES</text><text x="20" y="106" fill="#9bb0bb" font-size="12">Practical exercises in web exploitation,</text><text x="20" y="126" fill="#9bb0bb" font-size="12">reverse engineering and cryptography.</text><text x="20" y="170" fill="#00ff9c" font-size="11">COMMUNITY // SKILL BUILDING</text>
+    </g>
+  </g>
+  <text x="28" y="1003" fill="#8297a3" font-size="11">ARCHIVE INDEX // AUTHORIZED RESEARCH • OPEN SOURCE • SECURITY EDUCATION</text>
+</svg>

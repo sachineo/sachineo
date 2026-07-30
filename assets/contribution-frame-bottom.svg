@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 76" role="img" aria-labelledby="title desc">
+  <title id="title">Contribution network status</title><desc id="desc">Cyber HUD footer for the GitHub contribution snake.</desc>
+  <style>text{font-family:"JetBrains Mono","SFMono-Regular",Consolas,monospace}.pulse{animation:pulse 2.4s ease-in-out infinite}@keyframes pulse{50%{opacity:.25}}@media(prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+  <rect width="1000" height="76" fill="#080d12"/><path d="M1.5 0v61A13.5 13.5 0 0 0 15 74.5h970A13.5 13.5 0 0 0 998.5 61V0" fill="none" stroke="#27333b" stroke-width="3"/>
+  <path d="M22 1h956" stroke="#27333b"/><text x="28" y="43" fill="#8297a3" font-size="11">ACTIVITY STREAM // GITHUB</text><text x="748" y="43" fill="#00ff9c" font-size="11">OUTPUT_BRANCH // ONLINE</text><circle cx="963" cy="39" r="5" fill="#00ff9c" class="pulse"/>
+</svg>

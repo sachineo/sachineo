@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 86" role="img" aria-labelledby="title desc">
+  <title id="title">GitHub intelligence dashboard heading</title><desc id="desc">Cyber HUD heading for live GitHub statistics and activity.</desc>
+  <style>text{font-family:"JetBrains Mono","SFMono-Regular",Consolas,monospace}.pulse{animation:pulse 2.4s ease-in-out infinite}@keyframes pulse{50%{opacity:.25}}@media(prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+  <rect width="1000" height="86" rx="14" fill="#080d12"/><rect x="1.5" y="1.5" width="997" height="83" rx="12.5" fill="none" stroke="#27333b" stroke-width="3"/>
+  <path d="M18 16h38M18 16v18M982 16h-38M982 16v18" stroke="#00ff9c" stroke-width="2"/>
+  <text x="28" y="51" fill="#00ff9c" font-size="18" font-weight="700">&gt; GITHUB INTELLIGENCE</text><text x="842" y="50" fill="#8297a3" font-size="11">REAL-TIME FEED</text><circle cx="963" cy="45" r="5" fill="#00ff9c" class="pulse"/>
+</svg>
