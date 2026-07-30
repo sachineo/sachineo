@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 250" role="img" aria-labelledby="title desc">
+  <title id="title">Cybersecurity profile session footer</title>
+  <desc id="desc">Animated session complete terminal footer with waveform and closed connection message.</desc>
+  <defs>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#00ff88" stroke-opacity=".045"/>
+    </pattern>
+  </defs>
+  <style>
+    text{font-family:"JetBrains Mono","SFMono-Regular",Consolas,monospace}
+    .wave{stroke-dasharray:14 10;animation:wave 7s linear infinite}.pulse{animation:pulse 2s ease-in-out infinite}.cursor{animation:blink 1s steps(2,end) infinite}
+    @keyframes wave{to{stroke-dashoffset:-240}}@keyframes pulse{50%{opacity:.25}}@keyframes blink{50%{opacity:0}}
+    @media(prefers-reduced-motion:reduce){*{animation:none!important}}
+  </style>
+  <rect width="1000" height="250" rx="16" fill="#050807"/>
+  <rect x="1.5" y="1.5" width="997" height="247" rx="14.5" fill="url(#grid)" stroke="#00ff88" stroke-opacity=".42" stroke-width="3"/>
+  <path class="wave" d="M0 68h110l18-18 24 36 28-50 30 52 22-20h115l19-18 22 34 28-46 30 48 26-18h113l18-20 26 38 27-50 32 52 24-20h112" fill="none" stroke="#00d9c0" stroke-opacity=".5" stroke-width="2"/>
+  <circle cx="951" cy="30" r="5" fill="#00ff88" class="pulse"/>
+  <text x="500" y="120" text-anchor="middle" font-size="20" font-weight="700" fill="#00ff88">&gt; SESSION COMPLETE</text>
+  <text x="500" y="154" text-anchor="middle" font-size="13" fill="#b9d8cc">SECURE • EDUCATE • RESEARCH • BUILD</text>
+  <text x="500" y="183" text-anchor="middle" font-size="12" fill="#82a89a">Thanks for visiting. Responsible security creates a safer internet.</text>
+  <text x="306" y="220" font-size="12" fill="#00ff88">root@sachin:~#</text>
+  <text x="446" y="220" font-size="12" fill="#e6fff4">exit // connection closed</text>
+  <rect class="cursor" x="660" y="207" width="8" height="17" fill="#00ff88"/>
+</svg>

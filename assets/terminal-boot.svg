@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 360" role="img" aria-labelledby="title desc">
+  <title id="title">Cybersecurity terminal boot sequence</title>
+  <desc id="desc">Animated terminal boot sequence loading identity, cybersecurity modules, OWASP engine, reconnaissance, and Skoolic network.</desc>
+  <style>
+    text{font-family:"JetBrains Mono","SFMono-Regular",Consolas,monospace}
+    .l1{animation:line 9s linear infinite}.l2{animation:line 9s .7s linear infinite}.l3{animation:line 9s 1.4s linear infinite}.l4{animation:line 9s 2.1s linear infinite}.l5{animation:line 9s 2.8s linear infinite}.ready{animation:ready 9s linear infinite}.cursor{animation:blink 1s steps(2,end) infinite}
+    @keyframes line{0%,8%{opacity:0;transform:translateX(-8px)}15%,82%{opacity:1;transform:none}92%,100%{opacity:.2}}
+    @keyframes ready{0%,38%{opacity:0}46%,84%{opacity:1}94%,100%{opacity:.18}}
+    @keyframes blink{50%{opacity:0}}
+    @media(prefers-reduced-motion:reduce){*{animation:none!important}}
+  </style>
+  <rect width="1000" height="360" rx="16" fill="#050807"/>
+  <rect x="1.5" y="1.5" width="997" height="357" rx="14.5" fill="none" stroke="#00ff88" stroke-opacity=".42" stroke-width="3"/>
+  <rect x="1.5" y="1.5" width="997" height="50" rx="14.5" fill="#09110e"/>
+  <path d="M1 51h998" stroke="#00ff88" stroke-opacity=".18"/>
+  <circle cx="29" cy="26" r="6" fill="#ff3344"/><circle cx="52" cy="26" r="6" fill="#536b63"/><circle cx="75" cy="26" r="6" fill="#00ff88"/>
+  <text x="500" y="32" text-anchor="middle" font-size="13" fill="#82a89a">sachin@kali — secure-profile — 100x28</text>
+  <g transform="translate(30 84)" font-size="15">
+    <text x="0" y="0" fill="#00ff88">root@sachin:~#</text><text x="146" y="0" fill="#e6fff4">./boot.sh</text>
+    <g class="l1"><text x="0" y="46" fill="#82a89a">[+] Loading identity</text><text x="775" y="46" fill="#00ff88">DONE</text></g>
+    <g class="l2"><text x="0" y="82" fill="#82a89a">[+] Mounting cybersecurity modules</text><text x="775" y="82" fill="#00ff88">DONE</text></g>
+    <g class="l3"><text x="0" y="118" fill="#82a89a">[+] Initializing OWASP engine</text><text x="775" y="118" fill="#00ff88">DONE</text></g>
+    <g class="l4"><text x="0" y="154" fill="#82a89a">[+] Starting reconnaissance workspace</text><text x="775" y="154" fill="#00ff88">DONE</text></g>
+    <g class="l5"><text x="0" y="190" fill="#82a89a">[+] Connecting to Skoolic network</text><text x="775" y="190" fill="#00ff88">DONE</text></g>
+    <g class="ready">
+      <text x="0" y="236" fill="#00ff88" font-size="18" font-weight="700">SYSTEM READY // AUTHORIZED RESEARCH ONLY</text>
+      <text x="0" y="270" fill="#00ff88">root@sachin:~#</text>
+      <rect class="cursor" x="148" y="254" width="10" height="20" fill="#00ff88"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 92" role="img" aria-labelledby="title desc">
+  <title id="title">Sachin T cybersecurity roles</title>
+  <desc id="desc">Animated terminal line cycling through Sachin T's professional cybersecurity roles.</desc>
+  <style>
+    text{font-family:"JetBrains Mono","SFMono-Regular",Consolas,monospace}
+    .role{opacity:0;animation:roles 18s steps(1,end) infinite}
+    .r2{animation-delay:2s}.r3{animation-delay:4s}.r4{animation-delay:6s}.r5{animation-delay:8s}.r6{animation-delay:10s}.r7{animation-delay:12s}.r8{animation-delay:14s}.r9{animation-delay:16s}
+    .cursor{animation:blink 1s steps(2,end) infinite}
+    @keyframes roles{0%,10.9%{opacity:1}11%,100%{opacity:0}}
+    @keyframes blink{50%{opacity:0}}
+    @media(prefers-reduced-motion:reduce){.role{animation:none}.role:not(:first-of-type){display:none}.cursor{animation:none}}
+  </style>
+  <rect x="1" y="1" width="998" height="90" rx="12" fill="#050807" stroke="#00ff88" stroke-opacity=".42" stroke-width="2"/>
+  <circle cx="28" cy="25" r="5" fill="#ff3344"/><circle cx="47" cy="25" r="5" fill="#82a89a"/><circle cx="66" cy="25" r="5" fill="#00ff88"/>
+  <path d="M1 46h998" stroke="#00ff88" stroke-opacity=".12"/>
+  <text x="27" y="73" font-size="18" fill="#00ff88">sachin@kali:~$</text>
+  <g font-size="18" fill="#e6fff4">
+    <text class="role r1" x="208" y="73">Cybersecurity Trainer &amp; Mentor</text>
+    <text class="role r2" x="208" y="73">Ethical Hacker</text>
+    <text class="role r3" x="208" y="73">Penetration Tester</text>
+    <text class="role r4" x="208" y="73">Security Researcher</text>
+    <text class="role r5" x="208" y="73">Bug Hunter</text>
+    <text class="role r6" x="208" y="73">VAPT Specialist</text>
+    <text class="role r7" x="208" y="73">OSINT Researcher</text>
+    <text class="role r8" x="208" y="73">Founder of Skoolic</text>
+    <text class="role r9" x="208" y="73">Building a Safer Internet</text>
+  </g>
+  <rect class="cursor" x="548" y="55" width="10" height="22" fill="#00ff88"/>
+</svg>

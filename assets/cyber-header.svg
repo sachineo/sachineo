@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">Sachin T Cybersecurity Profile</title>
+  <desc id="desc">Animated cybersecurity identity console using Sachin T's supplied portrait, rotating HUD rings, biometric scan, terminal boot sequence, and online status.</desc>
+  <defs>
+    <linearGradient id="panel" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#050807"/>
+      <stop offset=".55" stop-color="#07110d"/>
+      <stop offset="1" stop-color="#061015"/>
+    </linearGradient>
+    <linearGradient id="scan" x1="0" x2="0" y1="0" y2="1">
+      <stop stop-color="#00ff88" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#00ff88" stop-opacity=".7"/>
+      <stop offset="1" stop-color="#11d9ff" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="portraitShade">
+      <stop offset=".68" stop-color="#050807" stop-opacity="0"/>
+      <stop offset="1" stop-color="#050807" stop-opacity=".72"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#00ff88" stroke-opacity=".055"/>
+    </pattern>
+    <clipPath id="portraitClip">
+      <circle cx="315" cy="326" r="204"/>
+    </clipPath>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <style>
+    .mono{font-family:"JetBrains Mono","SFMono-Regular",Consolas,monospace}
+    .ui{font-family:Inter,Segoe UI,Arial,sans-serif}
+    .ring-a{transform-origin:315px 326px;animation:spin 18s linear infinite}
+    .ring-b{transform-origin:315px 326px;animation:spinBack 12s linear infinite}
+    .pulse{animation:pulse 2.4s ease-in-out infinite}
+    .blink{animation:blink 1.05s steps(2,end) infinite}
+    .scan{animation:scan 5.6s ease-in-out infinite}
+    .glitch{animation:glitch 8s steps(1,end) infinite}
+    .boot1{animation:boot 8s linear infinite}
+    .boot2{animation:boot 8s .65s linear infinite}
+    .boot3{animation:boot 8s 1.3s linear infinite}
+    .boot4{animation:boot 8s 1.95s linear infinite}
+    .packet1{animation:packet 6s linear infinite}
+    .packet2{animation:packet 7.5s 2s linear infinite}
+    @keyframes spin{to{transform:rotate(360deg)}}
+    @keyframes spinBack{to{transform:rotate(-360deg)}}
+    @keyframes pulse{0%,100%{opacity:.42}50%{opacity:1}}
+    @keyframes blink{50%{opacity:0}}
+    @keyframes scan{0%,18%{transform:translateY(-210px);opacity:0}24%{opacity:1}62%{transform:translateY(210px);opacity:.8}68%,100%{opacity:0}}
+    @keyframes boot{0%,8%{opacity:0;transform:translateX(-7px)}14%,76%{opacity:1;transform:none}88%,100%{opacity:.22}}
+    @keyframes packet{0%{offset-distance:0;opacity:0}12%,82%{opacity:1}100%{offset-distance:100%;opacity:0}}
+    @keyframes glitch{0%,91%,93%,100%{transform:none;opacity:1}91.5%{transform:translateX(3px);opacity:.8}92%{transform:translateX(-2px);opacity:.92}}
+    @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+  </style>
+
+  <rect width="1200" height="680" rx="22" fill="url(#panel)"/>
+  <rect x="1.5" y="1.5" width="1197" height="677" rx="20.5" fill="none" stroke="#00ff88" stroke-opacity=".58" stroke-width="3"/>
+  <path d="M22 96V23h190M978 23h199v73M22 584v73h190M978 657h199v-73" fill="none" stroke="#11d9ff" stroke-width="2" stroke-opacity=".54"/>
+  <rect x="18" y="18" width="1164" height="644" rx="14" fill="url(#grid)"/>
+  <path d="M0 78h1200M0 602h1200" stroke="#00ff88" stroke-opacity=".12"/>
+
+  <g class="mono" font-size="13" fill="#82a89a">
+    <text x="42" y="52">sachin@kali:~$ ./initialize_profile.sh</text>
+    <text x="1006" y="52">SECURE_NODE_07</text>
+    <circle cx="1159" cy="47" r="5" fill="#00ff88" class="pulse" filter="url(#glow)"/>
+  </g>
+
+  <g>
+    <circle cx="315" cy="326" r="222" fill="#030706" stroke="#00ff88" stroke-opacity=".18"/>
+    <g clip-path="url(#portraitClip)">
+      <image x="111" y="122" width="408" height="408" preserveAspectRatio="xMidYMid slice"
+        href="https://raw.githubusercontent.com/sachineo/sachineo/main/assets/sachin-portrait.png"
+        xlink:href="https://raw.githubusercontent.com/sachineo/sachineo/main/assets/sachin-portrait.png"/>
+      <circle cx="315" cy="326" r="204" fill="url(#portraitShade)"/>
+      <g class="scan">
+        <rect x="111" y="306" width="408" height="38" fill="url(#scan)"/>
+        <path d="M123 326h384" stroke="#00ff88" stroke-width="2" filter="url(#glow)"/>
+      </g>
+      <g opacity=".12">
+        <path d="M111 250h408M111 402h408" stroke="#11d9ff"/>
+        <path d="M239 122v408M391 122v408" stroke="#11d9ff"/>
+      </g>
+    </g>
+
+    <circle cx="315" cy="326" r="204" fill="none" stroke="#00ff88" stroke-width="3" class="pulse" filter="url(#glow)"/>
+    <g class="ring-a" fill="none" stroke="#00d9c0">
+      <circle cx="315" cy="326" r="223" stroke-opacity=".58" stroke-dasharray="9 13 52 16"/>
+      <path d="M315 94v20M315 538v20M83 326h20M527 326h20" stroke-width="3"/>
+      <circle cx="315" cy="103" r="4" fill="#11d9ff" stroke="none" filter="url(#glow)"/>
+    </g>
+    <g class="ring-b" fill="none" stroke="#11d9ff">
+      <circle cx="315" cy="326" r="238" stroke-opacity=".34" stroke-dasharray="2 17 25 8"/>
+      <path d="M154 151l13 13M476 151l-13 13M154 501l13-13M476 501l-13-13" stroke-width="2"/>
+    </g>
+
+    <g fill="none" stroke="#00ff88" stroke-width="3" class="pulse">
+      <path d="M136 205v-34h34M494 205v-34h-34M136 447v34h34M494 447v34h-34"/>
+    </g>
+
+    <g class="mono" font-size="10" fill="#00d9c0">
+      <text x="54" y="171">WEB</text><path d="M78 168h53" stroke="#00d9c0" stroke-opacity=".55"/>
+      <text x="44" y="493">OSINT</text><path d="M82 489h48" stroke="#00d9c0" stroke-opacity=".55"/>
+      <text x="519" y="171">VAPT</text><path d="M500 168h16" stroke="#00d9c0" stroke-opacity=".55"/>
+      <text x="524" y="493">NET</text><path d="M500 489h18" stroke="#00d9c0" stroke-opacity=".55"/>
+    </g>
+
+    <text x="315" y="580" text-anchor="middle" class="mono" font-size="13" fill="#82a89a">BIOMETRIC MATCH // 100.00%</text>
+    <text x="315" y="604" text-anchor="middle" class="mono" font-size="20" font-weight="700" fill="#00ff88" filter="url(#glow)">IDENTITY VERIFIED</text>
+  </g>
+
+  <g transform="translate(600 128)">
+    <text class="mono" x="0" y="0" font-size="13" fill="#00d9c0">IDENTITY // AUTHORIZED OPERATOR</text>
+    <g class="glitch">
+      <text class="ui" x="0" y="66" font-size="52" font-weight="800" letter-spacing="3" fill="#e6fff4">SACHIN</text>
+      <text class="ui" x="0" y="114" font-size="34" font-weight="700" letter-spacing="5" fill="#00ff88">// CYBERSEC</text>
+    </g>
+    <path d="M0 139h500" stroke="#00ff88" stroke-opacity=".44"/>
+    <text class="mono" x="0" y="171" font-size="14" fill="#b9d8cc">ETHICAL HACKER • SECURITY RESEARCHER</text>
+    <text class="mono" x="0" y="197" font-size="14" fill="#b9d8cc">PENETRATION TESTER • TRAINER • BUG HUNTER</text>
+
+    <g class="mono" font-size="14">
+      <g class="boot1"><text x="0" y="251" fill="#82a89a">&gt; Loading security modules</text><text x="468" y="251" fill="#00ff88">[OK]</text></g>
+      <g class="boot2"><text x="0" y="289" fill="#82a89a">&gt; Initializing reconnaissance engine</text><text x="468" y="289" fill="#00ff88">[OK]</text></g>
+      <g class="boot3"><text x="0" y="327" fill="#82a89a">&gt; Mounting OWASP knowledge base</text><text x="468" y="327" fill="#00ff88">[OK]</text></g>
+      <g class="boot4"><text x="0" y="365" fill="#82a89a">&gt; Verifying operator identity</text><text x="468" y="365" fill="#00ff88">[OK]</text></g>
+    </g>
+
+    <rect x="0" y="404" width="500" height="74" rx="9" fill="#00ff88" fill-opacity=".045" stroke="#00ff88" stroke-opacity=".35"/>
+    <text class="mono" x="23" y="436" font-size="13" fill="#82a89a">SYSTEM STATUS</text>
+    <circle cx="25" cy="456" r="5" fill="#00ff88" class="pulse" filter="url(#glow)"/>
+    <text class="mono" x="41" y="461" font-size="18" font-weight="700" fill="#00ff88">ONLINE // ACCESS GRANTED</text>
+    <rect x="412" y="439" width="9" height="24" fill="#00ff88" class="blink"/>
+  </g>
+
+  <g class="mono" font-size="11" fill="#536b63">
+    <text x="42" y="638">ID: SACHIN_T</text>
+    <text x="204" y="638">ROLE: SECURITY_RESEARCHER</text>
+    <text x="468" y="638">LOC: COIMBATORE_INDIA</text>
+    <text x="757" y="638">MISSION: SECURE_EDUCATE_RESEARCH_BUILD</text>
+  </g>
+</svg>

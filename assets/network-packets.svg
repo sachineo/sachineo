@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 120" role="img" aria-labelledby="title desc">
+  <title id="title">Animated network packet flow</title>
+  <desc id="desc">Subtle packet visualization from client through firewall and intrusion detection system to server.</desc>
+  <style>
+    text{font-family:"JetBrains Mono","SFMono-Regular",Consolas,monospace}
+    .p{animation:move 6s linear infinite}.p2{animation-delay:1.7s}.p3{animation-delay:3.4s}.alert{animation:detect 6s 4.4s linear infinite}
+    @keyframes move{0%{transform:translateX(0);opacity:0}10%,82%{opacity:1}100%{transform:translateX(790px);opacity:0}}
+    @keyframes detect{0%,18%{transform:translateX(0);opacity:0}25%,52%{opacity:1}62%{transform:translateX(440px);opacity:1}68%,100%{transform:translateX(440px);opacity:0}}
+    @media(prefers-reduced-motion:reduce){*{animation:none!important}}
+  </style>
+  <rect width="1000" height="120" rx="12" fill="#050807"/>
+  <rect x="1" y="1" width="998" height="118" rx="11" fill="none" stroke="#00ff88" stroke-opacity=".25" stroke-width="2"/>
+  <path d="M105 61h790" stroke="#00d9c0" stroke-opacity=".34" stroke-width="2" stroke-dasharray="5 8"/>
+  <g font-size="11" fill="#82a89a">
+    <text x="25" y="66">CLIENT</text><text x="285" y="40">FIREWALL</text><text x="570" y="40">IDS</text><text x="910" y="66">SERVER</text>
+  </g>
+  <path d="M326 50v23M608 50v23" stroke="#00ff88" stroke-opacity=".45"/>
+  <circle class="p" cx="105" cy="61" r="5" fill="#00ff88"/>
+  <circle class="p p2" cx="105" cy="61" r="5" fill="#11d9ff"/>
+  <circle class="p p3" cx="105" cy="61" r="5" fill="#00d9c0"/>
+  <circle class="alert" cx="105" cy="61" r="5" fill="#ff3344"/>
+  <text x="25" y="101" font-size="10" fill="#536b63">PACKET_MONITOR // AUTHORIZED TRAFFIC // INSPECTION ACTIVE</text>
+</svg>
