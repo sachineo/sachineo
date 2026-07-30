@@ -110,9 +110,9 @@ I founded **Skoolic** to build practical cybersecurity learning experiences thro
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sachineo/sachineo/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sachineo/sachineo/output/github-contribution-grid-snake.svg" />
-    <img width="930" alt="Animated neon contribution snake" src="https://raw.githubusercontent.com/sachineo/sachineo/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sachineo/sachineo/output/github-contribution-grid-snake-dark.svg?v=2" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sachineo/sachineo/output/github-contribution-grid-snake.svg?v=2" />
+    <img width="930" alt="Animated neon contribution snake" src="https://raw.githubusercontent.com/sachineo/sachineo/output/github-contribution-grid-snake-dark.svg?v=2" />
   </picture>
 </div>
 
