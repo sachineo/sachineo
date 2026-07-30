@@ -11,8 +11,8 @@
   </defs>
   <style>
     text{font-family:"JetBrains Mono","SFMono-Regular",Consolas,monospace}
-    .sweep{transform-origin:238px 202px;animation:spin 7s linear infinite}.pulse{animation:pulse 2s ease-in-out infinite}.p2{animation-delay:.7s}.p3{animation-delay:1.4s}
-    @keyframes spin{to{transform:rotate(360deg)}}@keyframes pulse{50%{opacity:.25}}
+    .sweep{transform-origin:238px 202px;animation:spin 8.5s linear infinite}.pulse{animation:pulse 2s ease-in-out infinite}.p2{animation-delay:.7s}.p3{animation-delay:1.4s}.violet-blip{animation:violetBlip 10s ease-in-out infinite}
+    @keyframes spin{to{transform:rotate(360deg)}}@keyframes pulse{50%{opacity:.25}}@keyframes violetBlip{0%,64%,100%{opacity:0;r:3px}70%,78%{opacity:1;r:7px}86%{opacity:0;r:3px}}
     @media(prefers-reduced-motion:reduce){*{animation:none!important}}
   </style>
   <rect width="1000" height="390" rx="16" fill="#050807"/>
@@ -28,6 +28,7 @@
   <g fill="#00ff88">
     <circle class="pulse" cx="180" cy="139" r="5"/><circle class="pulse p2" cx="302" cy="236" r="4"/><circle class="pulse p3" cx="205" cy="285" r="4"/>
   </g>
+  <circle class="violet-blip" cx="330" cy="164" r="3" fill="#b026ff" opacity="0"/>
   <g font-size="11" fill="#82a89a">
     <text x="214" y="65">WEB</text><text x="360" y="205">NETWORK</text><text x="205" y="350">OSINT</text><text x="66" y="205">CLOUD</text><text x="344" y="105">VAPT</text>
   </g>

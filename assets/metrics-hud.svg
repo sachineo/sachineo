@@ -9,8 +9,8 @@
   </defs>
   <style>
     text{font-family:"JetBrains Mono","SFMono-Regular",Consolas,monospace}
-    .pulse{animation:pulse 2.4s ease-in-out infinite}.scan{animation:scan 7s linear infinite}
-    @keyframes pulse{50%{opacity:.25}}@keyframes scan{from{transform:translateX(-900px)}to{transform:translateX(1000px)}}
+    .pulse{animation:pulse 2.4s ease-in-out infinite}.scan{animation:scan 9s linear infinite}.violet-trace{animation:trace 10s ease-in-out infinite}
+    @keyframes pulse{50%{opacity:.25}}@keyframes scan{from{transform:translateX(-900px)}to{transform:translateX(1000px)}}@keyframes trace{0%,68%,100%{opacity:0;transform:translateX(0)}73%{opacity:.8}88%{opacity:.15;transform:translateX(820px)}}
     @media(prefers-reduced-motion:reduce){*{animation:none!important}}
   </style>
   <rect width="1000" height="170" rx="16" fill="#080d12"/>
@@ -27,4 +27,5 @@
   </g>
   <path d="M250 70v72M500 70v72M750 70v72" stroke="#27333b"/>
   <rect class="scan" x="0" y="57" width="150" height="2" fill="url(#scan)"/>
+  <rect class="violet-trace" x="54" y="148" width="120" height="2" rx="1" fill="#b026ff" opacity="0"/>
 </svg>

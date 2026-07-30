@@ -22,7 +22,7 @@
     <text x="34" y="222" fill="#8297a3">SPECIALIZATION</text><text x="190" y="222" fill="#f2fff9">MCA // CYBERSECURITY</text>
     <text x="34" y="260" fill="#8297a3">LOCATION</text><text x="190" y="260" fill="#f2fff9">COIMBATORE // INDIA</text>
     <text x="34" y="298" fill="#8297a3">MISSION</text><text x="190" y="298" fill="#00ff9c">SECURE • EDUCATE • RESEARCH • BUILD</text>
-    <text x="34" y="340" fill="#00d9ff">sachin@kali:~$</text><rect x="190" y="328" width="9" height="15" fill="#00ff9c" class="cursor"/>
+    <text x="34" y="340" fill="#00d9ff">sachin@kali:~$</text><rect x="190" y="328" width="9" height="15" fill="#b026ff" class="cursor"/>
   </g>
   <g transform="translate(645 104)">
     <text fill="#8297a3" font-size="11">CURRENT OPERATIONS</text>
@@ -30,7 +30,7 @@
     <g font-size="14">
       <circle cx="5" cy="57" r="4" fill="#00ff9c" class="pulse"/><text x="20" y="62" fill="#f2fff9">AUTHORIZED SECURITY TESTING</text>
       <circle cx="5" cy="101" r="4" fill="#00d9ff" class="pulse"/><text x="20" y="106" fill="#f2fff9">VULNERABILITY RESEARCH</text>
-      <circle cx="5" cy="145" r="4" fill="#00ff9c" class="pulse"/><text x="20" y="150" fill="#f2fff9">PRACTICAL CYBER EDUCATION</text>
+      <circle cx="5" cy="145" r="4" fill="#b026ff" class="pulse"/><text x="20" y="150" fill="#f2fff9">PRACTICAL CYBER EDUCATION</text>
       <circle cx="5" cy="189" r="4" fill="#00d9ff" class="pulse"/><text x="20" y="194" fill="#f2fff9">SKOOLIC PLATFORM</text>
     </g>
     <rect y="228" width="315" height="52" rx="8" fill="#0b151b" stroke="#00ff9c" stroke-opacity=".35"/>

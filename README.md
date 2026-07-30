@@ -17,10 +17,6 @@
 
 <br /><br />
 
-<img src="./assets/sachin-cyber-avatar.webp?v=3" width="440" alt="Sachin T — animated cyber avatar" />
-
-<br /><br />
-
 <img src="./assets/metrics-hud.svg" width="100%" alt="Live cybersecurity portfolio metrics" />
 
 <br />
@@ -45,8 +41,8 @@
 
 <br />
 
-<img height="176" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=sachineo&theme=github_dark" alt="Sachin T GitHub statistics" />
-<img height="176" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=sachineo&theme=github_dark" alt="Sachin T public repository languages" />
+<img height="176" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=sachineo&theme=tokyonight" alt="Sachin T GitHub statistics" />
+<img height="176" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=sachineo&theme=tokyonight" alt="Sachin T public repository languages" />
 
 <br />
 

@@ -13,6 +13,7 @@ BG = "#050807"
 GREEN = "#00ff88"
 TEAL = "#00d9c0"
 CYAN = "#11d9ff"
+VIOLET_RGB = (176, 38, 255)
 MUTED = "#82a89a"
 DIM = "#536b63"
 TEXT = "#e6fff4"
@@ -157,11 +158,19 @@ def render_header() -> None:
         draw.ellipse((center[0] - 176, center[1] - 176, center[0] + 176, center[1] + 176), outline=GREEN, width=3)
         animated_ring(draw, ring_box, phase * 360, TEAL, 2)
         animated_ring(draw, ring2_box, -phase * 360 * 1.35, CYAN, 1)
+        violet_alpha = int(35 + 100 * max(0, math.sin((phase - 0.68) * math.tau * 2)))
+        draw.arc(ring2_box, start=224 + phase * 22, end=260 + phase * 22, fill=(*VIOLET_RGB, violet_alpha), width=2)
         corners(draw, center, 155, pulse)
         draw.text((33, 133), "WEB", font=small_font, fill=TEAL)
         draw.text((29, 424), "OSINT", font=small_font, fill=TEAL)
         draw.text((435, 133), "VAPT", font=small_font, fill=TEAL)
         draw.text((442, 424), "NET", font=small_font, fill=TEAL)
+        for particle in range(8):
+            px = 500 + ((particle * 83 + index * (2 + particle % 3)) % 455)
+            py = 82 + ((particle * 61 + index * 3) % 390)
+            particle_alpha = 35 + ((particle * 29 + index * 7) % 90)
+            particle_color = (*VIOLET_RGB, particle_alpha) if particle % 3 == 0 else (17, 217, 255, particle_alpha)
+            draw.ellipse((px, py, px + 3, py + 3), fill=particle_color)
         draw.text((245, 494), "BIOMETRIC MATCH // 100.00%", anchor="mm", font=small_font, fill=MUTED)
         draw.text((245, 519), "IDENTITY VERIFIED", anchor="mm", font=label_font, fill=GREEN)
 
@@ -170,6 +179,9 @@ def render_header() -> None:
         title_x = tx + (2 if index in (32, 33) else 0)
         draw.text((title_x, 151), "SACHIN", font=title_font, fill=TEXT)
         draw.text((title_x, 199), "// CYBERSEC", font=subtitle_font, fill=GREEN)
+        if index in (28, 29):
+            draw.line((tx + 6, 143, tx + 168, 143), fill=(*VIOLET_RGB, 145), width=2)
+            draw.line((tx + 212, 232, tx + 394, 232), fill=(17, 217, 255, 120), width=1)
         draw.line((tx, 244, 948, 244), fill=(0, 255, 136, 90), width=1)
         draw.text((tx, 263), "ETHICAL HACKER • SECURITY RESEARCHER", font=small_font, fill="#b9d8cc")
         draw.text((tx, 286), "PENETRATION TESTER • TRAINER • BUG HUNTER", font=small_font, fill="#b9d8cc")
@@ -198,48 +210,6 @@ def render_header() -> None:
     save_webp(frames, ASSETS / "cyber-header.webp", 100)
 
 
-def render_avatar() -> None:
-    width = height = 520
-    frames: list[Image.Image] = []
-    portrait = fitted_portrait(344)
-    center = (260, 226)
-    radius = 172
-    small_font = font(9)
-    label_font = font(12, bold=True)
-
-    for index in range(36):
-        phase = index / 36
-        canvas = Image.new("RGB", (width, height), BG)
-        draw = ImageDraw.Draw(canvas, "RGBA")
-        grid(draw, width, height, 24)
-        draw.rounded_rectangle((2, 2, 517, 517), radius=22, outline=(0, 255, 136, 130), width=3)
-        draw.text((20, 22), "BIOMETRIC_ID // SACHIN_T", font=small_font, fill=MUTED)
-        pulse = int(120 + 135 * (0.5 + 0.5 * math.sin(phase * math.tau * 2)))
-        draw.text((432, 22), "ONLINE", font=small_font, fill=GREEN)
-        draw.ellipse((491, 20, 501, 30), fill=(0, 255, 136, pulse))
-
-        paste_circle(canvas, portrait, center, radius)
-        scanner(canvas, center, radius, (phase * 1.35) % 1)
-        glow = glow_layer((width, height), lambda g: g.ellipse((83, 49, 437, 403), outline=(0, 255, 136, 170), width=4))
-        canvas.paste(glow, (0, 0), glow)
-        draw = ImageDraw.Draw(canvas, "RGBA")
-        draw.ellipse((84, 50, 436, 402), outline=GREEN, width=3)
-        animated_ring(draw, (70, 36, 450, 416), phase * 360, TEAL, 2)
-        animated_ring(draw, (57, 23, 463, 429), -phase * 500, CYAN, 1)
-        corners(draw, center, 150, pulse)
-        draw.text((22, 134), "WEB", font=small_font, fill=TEAL)
-        draw.text((17, 350), "OSINT", font=small_font, fill=TEAL)
-        draw.text((466, 134), "VAPT", font=small_font, fill=TEAL)
-        draw.text((475, 350), "NET", font=small_font, fill=TEAL)
-        draw.rounded_rectangle((50, 455, 470, 501), radius=8, fill=(0, 255, 136, 10), outline=(0, 255, 136, 76), width=1)
-        draw.text((260, 469), "IDENTITY MATCH // ACCESS AUTHORIZED", anchor="mm", font=small_font, fill=MUTED)
-        draw.text((260, 489), "SACHIN T // VERIFIED", anchor="mm", font=label_font, fill=GREEN)
-        frames.append(canvas)
-
-    save_webp(frames, ASSETS / "sachin-cyber-avatar.webp", 100)
-
-
 if __name__ == "__main__":
     render_header()
-    render_avatar()
-    print("Rendered animated profile assets.")
+    print("Rendered animated hero asset.")
